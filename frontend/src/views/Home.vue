@@ -1,5 +1,8 @@
 <template>
   <div class="container mx-auto">
+    <div class="flex flex-wrap items-center justify-center">
+      <button @click="$router.push('/dropzone')" type="button" class="p-2 text-sm text-white bg-blue-400">Dropzone</button>
+    </div>
     <div class="flex flex-col border border-gray-200 w-96 mt-10 mx-auto">
       <h2 class="text-center bg-calc-red py-5 text-white text-lg tracking-wider leading-loose uppercase">Calculator</h2>
 

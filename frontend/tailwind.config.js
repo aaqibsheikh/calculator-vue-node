@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'calc-red': '#c1322f'
+        'calc-red': '#c1322f',
+        'calc-blue': '#1caad8',
+        'calc-light-blue': '#e5f6fa',
       }
     },
   },
